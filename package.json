@@ -1,0 +1,22 @@
+{
+  "name": "node-influxdb-learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "author": "Gabriel Duarte <jds.gabrielduarte@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@influxdata/influxdb-client": "^1.33.2",
+    "@influxdata/influxdb-client-apis": "^1.33.2",
+    "fastify": "^4.26.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5"
+  }
+}

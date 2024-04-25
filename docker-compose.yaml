@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  influxdb:
+    image: bitnami/influxdb
+    ports:
+      - 8086:8086
+    environment:
+      - INFLUXDB_HTTP_AUTH_ENABLED=false
+      - INFLUXDB_ADMIN_USER_PASSWORD=9QXdHdNt4uCuPx6A
+      - INFLUXDB_ADMIN_USER_TOKEN=zrtgekr90eyb41kom9y9lfsd
